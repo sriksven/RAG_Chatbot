@@ -1,0 +1,42 @@
+# Streamlit UI and Environment
+streamlit
+streamlit_chat  # Optional if using for chat UI enhancements
+python-dotenv
+
+# PDF Handling
+pdfplumber
+PyPDF2
+PyMuPDF
+pymupdf
+pypdf
+camelot-py[cv]  # changed to include OpenCV support
+python-docx
+pdfminer.six==20221105
+
+# Core ML & Transformers
+torch>=1.8
+torchvision>=0.9
+transformers[sentencepiece]
+sentence-transformers
+accelerate
+spacy
+
+# Vector DB and LLM Tooling
+langchain
+langchain-community
+langchain-core
+langchain-chroma
+langchain-text-splitters
+chromadb==0.4.14
+huggingface-hub
+openai
+
+# General Utilities
+numpy>=1.19
+pandas
+tqdm
+Pillow
+unstructured
+uuid
+markdown
+requests
