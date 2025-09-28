@@ -42,46 +42,54 @@ python -m venv venv
 source venv/bin/activate   # On Windows: venv\Scripts\activate
 
 3. Install dependencies:
+'''
 pip install -r requirements.txt
+'''
 
 4. Create a folder named Notes under the project root. This will serve as your document vault.
 
 5. Run the application:
+'''
 streamlit run app.py
+'''
 
 6. Upload documents and start querying them through the browser UI.
 
 🧪 Example Workflow
 
-Upload one or more PDFs, DOCX, or Markdown files.
+1. Upload one or more PDFs, DOCX, or Markdown files.
 
-The system extracts and embeds text, tables, and images into ChromaDB.
+2. The system extracts and embeds text, tables, and images into ChromaDB.
 
-Ask natural language questions (e.g., “Summarize key findings from page 5”).
+3. Ask natural language questions (e.g., “Summarize key findings from page 5”).
 
-Receive contextual answers with text, tables, or images displayed.
+4. Receive contextual answers with text, tables, or images displayed.
 
-Optionally, listen to answers with voice playback.
+5. Optionally, listen to answers with voice playback.
+
+   
 
 🌱 Sustainability Impact
 
-Reduces redundant experimental work → fewer wasted resources.
+ - Reduces redundant experimental work → fewer wasted resources.
 
-Local deployment minimizes carbon footprint compared to cloud queries.
+ - Local deployment minimizes carbon footprint compared to cloud queries.
 
-Promotes paperless workflows and knowledge reuse.
+ - Promotes paperless workflows and knowledge reuse.
+
+
 
 🔮 Roadmap
 
-Domain-specific fine-tuning for materials science.
+- Domain-specific fine-tuning for materials science.
 
-Multilingual support (French, German, Chinese, etc.).
+- Multilingual support (French, German, Chinese, etc.).
 
-Advanced query chaining and document comparison.
+- Advanced query chaining and document comparison.
 
-User feedback loop for improving accuracy.
+- User feedback loop for improving accuracy.
 
-Integration with internal tools (e.g., SharePoint, ELN systems).
+- Integration with internal tools (e.g., SharePoint, ELN systems).
 
 🤝 Contributing
 
