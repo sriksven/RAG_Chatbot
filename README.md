@@ -55,41 +55,32 @@ streamlit run app.py
 
 6. Upload documents and start querying them through the browser UI.
 
-🧪 Example Workflow
+## 🧪 Example Workflow  
 
-1. Upload one or more PDFs, DOCX, or Markdown files.
+1. Upload one or more PDFs, DOCX, or Markdown files.  
+2. The system extracts and embeds text, tables, and images into ChromaDB.  
+3. Ask natural language questions (e.g., “Summarize key findings from page 5”).  
+4. Receive contextual answers with text, tables, or images displayed.  
+5. Optionally, listen to answers with voice playback.  
 
-2. The system extracts and embeds text, tables, and images into ChromaDB.
+---
 
-3. Ask natural language questions (e.g., “Summarize key findings from page 5”).
+## 🌱 Sustainability Impact  
 
-4. Receive contextual answers with text, tables, or images displayed.
+- Reduces redundant experimental work → fewer wasted resources.  
+- Local deployment minimizes carbon footprint compared to cloud queries.  
+- Promotes paperless workflows and knowledge reuse.  
 
-5. Optionally, listen to answers with voice playback.
+---
 
-   
+## 🔮 Roadmap  
 
-🌱 Sustainability Impact
+- Domain-specific fine-tuning for materials science.  
+- Multilingual support (French, German, Chinese, etc.).  
+- Advanced query chaining and document comparison.  
+- User feedback loop for improving accuracy.  
+- Integration with internal tools (e.g., SharePoint, ELN systems).  
 
- - Reduces redundant experimental work → fewer wasted resources.
-
- - Local deployment minimizes carbon footprint compared to cloud queries.
-
- - Promotes paperless workflows and knowledge reuse.
-
-
-
-🔮 Roadmap
-
-- Domain-specific fine-tuning for materials science.
-
-- Multilingual support (French, German, Chinese, etc.).
-
-- Advanced query chaining and document comparison.
-
-- User feedback loop for improving accuracy.
-
-- Integration with internal tools (e.g., SharePoint, ELN systems).
 
 🤝 Contributing
 
